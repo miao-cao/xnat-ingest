@@ -1,0 +1,17 @@
+name: xnat-ais
+channels:
+- conda-forge
+- defaults
+dependencies:
+- python
+- jupyterlab
+- mne
+- mne-bids
+- mne-connectivity
+- pip
+
+- pip:
+  - fileformats
+  - fileformats-medimage
+  - arcana
+  - arcana-xnat
